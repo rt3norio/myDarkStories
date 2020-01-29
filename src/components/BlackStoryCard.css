@@ -1,0 +1,111 @@
+.outerCard {
+    /* position: absolute; */
+    width: 335px;
+    /* height: 585.74px; */
+    padding-bottom: 30px;
+
+    background: #1A1A1A;
+    box-shadow: 0px 4.11043px 4.11043px rgba(0, 0, 0, 0.5);
+    border-radius: 10.2761px;
+}
+
+.innerCard {
+    position: relative;
+    width: 305px;
+    /* height: 555px; */
+    left: 15px;
+    top: 15px;
+
+    background: #1A1A1A;
+    border: 2px solid #FF6666;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.cardTitle {
+    position: relative;
+    width: 204px;
+    /* height: 31px; */
+    left: 20px;
+    /* top: 45px; */
+    margin-top: 45px;
+    text-align: left;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+
+
+    color: #FFFFFF;
+
+
+}
+
+.plot {
+    position: relative;
+    width: 266px;
+    /* height: 36px; */
+    left: 20px;
+    /* top: 91px; */
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom:30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+
+    color: #FFFFFF;
+}
+
+.dividerGroup {
+    position: absolute;
+    width: 60px;
+    /* height: 6px; */
+    left: 123px;
+    /* top: 154px; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+}
+
+.divider {
+    border-radius: 50%;
+    position: relative;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    margin-right: 6px;
+
+
+    background: #FF6666;
+}
+
+.plotReveal {
+    position: relative;
+    width: 256px;
+    /* height: 252px; */
+    left: 20px;
+    /* top: 187px; */
+    text-align: left;
+    margin-top: 96px;
+    margin-bottom: 30px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+
+    color: #FFFFFF;
+}
