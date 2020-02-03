@@ -12,7 +12,7 @@ class App extends React.Component {
     }
   }
   componentDidMount() {
-    fetch('https://frozen-mountain-10391.herokuapp.com/graphql?query=%7B%0A%20%20getOneCard%7B%0A%20%20%20%20name%0A%20%20%20%20plot%0A%20%20%20%20plotReveal%0A%20%20%7D%0A%7D',{ method: 'GET',mode: 'cors'})
+    fetch('https://mydarkstoriesbackend.herokuapp.com/graphql?query=%7B%0A%20%20getOneCard%7B%0A%20%20%20%20title%0A%20%20%20%20plot%0A%20%20%20%20plotReveal%0A%20%20%7D%0A%7D',{ method: 'GET',mode: 'cors'})
       .then(response => response.json())
       .then(responseData => {
         this.setState({
